@@ -3,7 +3,9 @@
 == Maintainer
 
 Mark A. Heckler
+
 mailto:mark.heckler@gmail.com[Email]
+
 https://www.twitter.com/mkheck[@mkheck on Twitter]
 
 == Notes
