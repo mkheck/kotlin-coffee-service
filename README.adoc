@@ -1,0 +1,14 @@
+= kotlin-coffee-service
+
+== Maintainer
+
+Mark A. Heckler
+mailto:mark.heckler@gmail.com[Email]
+https://www.twitter.com/mkheck[@mkheck on Twitter]
+
+== Notes
+
+This particular example uses Cassandra & its reactive drivers in Spring Data, but MongoDB or Couchbase can be easiy substituted (esp Mongo) by removing the Cassandra-specific configuration settings in application.properties and changing the Coffee class's annotations as such:
+
+. Replace @Table with @Document for Mongo
+. Replace @PrimaryKey (on the id property) with @Id for Mongo
